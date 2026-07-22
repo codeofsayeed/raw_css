@@ -1,4 +1,54 @@
+/*----------CSS L-04:(Flexbox)--------------*/
 * {
+  
+}
+body {
+  text-align: center;
+}
+#container {
+  height: 200px;
+  width: 800px;
+}
+div {
+  height: 100px;
+  width: 100px;
+  font-size: 40px;
+  border: 2px solid black;
+  display: inline-block;
+}
+#box1 {
+  background-color: aqua;
+}
+#box2 {
+  background-color: lightcoral;
+}
+#box3 {
+  background-color: lightgreen;
+}
+#box4 {
+  background-color: lightyellow;
+}
+#box5 {
+  background-color: lightblue;
+}
+
+/*-----------Positioning: (CSS L-03)-----------*/
+/* Problem 1: Create a div with a background image and position it to the top right corner of the page. The div should have a fixed position, so it stays in place when scrolling.::::-----
+div {
+  height: 500px;
+  width: 500px;
+  background-image: url(./images/tanya-barrow-UIosJ0I5uI8-unsplash.jpg);
+  background-size: cover;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+}
+*/
+
+/*
+CSS L-02
+
+*{
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -37,7 +87,8 @@ footer {
   margin-top: 20px;
   color: black;
   text-align: center;
-}
+}*/
+
 /* .first {
   background-color: aqua;
   height: 100px;
